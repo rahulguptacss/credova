@@ -1,0 +1,560 @@
+{
+  "common": {
+    "Header": {
+      "logo_text": "Credova",
+      "logo": "/logo/logo.webp",
+      "top_bar": {
+        "address": "123 Education Lane, New York, NY 10001",
+        "hours": "Mon - Fri: 8:00 AM - 6:00 PM",
+        "phone": "+100000000000",
+        "phone_href": "tel:+100000000000",
+        "email": "info@xyz.com",
+        "email_href": "mailto:info@xyz.com"
+      },
+      "links": [
+        {
+          "name": "Home",
+          "href": "#home"
+        },
+        {
+          "name": "About Us",
+          "href": "#about"
+        },
+        {
+          "name": "Our Services",
+          "href": "#services"
+        },
+        {
+          "name": "Why Choose Us",
+          "href": "#why-choose-us"
+        },
+        {
+          "name": "Our Team",
+          "href": "#team"
+        },
+        {
+          "name": "Testimonials",
+          "href": "#testimonials"
+        },
+        {
+          "name": "FAQ",
+          "href": "#faq"
+        }
+      ],
+      "button_text": "Contact Us",
+      "button_href": "#contact",
+      "phone": "+100000000000",
+      "phone_href": "tel:+100000000000"
+    },
+    "Footer": {
+      "logo_text": "Credova",
+      "logo": "/logo/logo.webp",
+      "description": "Smart banking and personalized financial solutions designed to empower your future with security, reliability, and continuous growth.",
+      "address": "123 Education Lane, New York, NY 10001",
+      "phone": "+100000000000",
+      "email": "info@xyz.com",
+      "hours": "Mon - Fri: 8:00 AM - 6:00 PM EST (24/7 Digital Banking)",
+      "disclaimer": "Credova Financial Inc. is a registered financial institution. Investment and advisory services are provided through Credova Wealth Management LLC. Securities and investment products are not FDIC insured, are not bank guaranteed, and may lose value.",
+      "links": [
+        {
+          "name": "Home",
+          "href": "#home"
+        },
+        {
+          "name": "About Us",
+          "href": "#about"
+        },
+        {
+          "name": "Our Services",
+          "href": "#services"
+        },
+        {
+          "name": "Why Choose Us",
+          "href": "#why-choose-us"
+        },
+        {
+          "name": "Our Team",
+          "href": "#team"
+        },
+        {
+          "name": "Testimonials",
+          "href": "#testimonials"
+        },
+        {
+          "name": "FAQ",
+          "href": "#faq"
+        },
+        {
+          "name": "Contact Us",
+          "href": "#contact"
+        }
+      ],
+      "support_links": [
+        {
+          "name": "Privacy Policy",
+          "href": "#"
+        },
+        {
+          "name": "Terms of Service",
+          "href": "#"
+        },
+        {
+          "name": "Security Center",
+          "href": "#"
+        },
+        {
+          "name": "Help Desk",
+          "href": "#faq"
+        }
+      ],
+      "socials": [
+        {
+          "name": "LinkedIn",
+          "href": "https://linkedin.com"
+        },
+        {
+          "name": "Twitter",
+          "href": "https://twitter.com"
+        },
+        {
+          "name": "Facebook",
+          "href": "https://facebook.com"
+        },
+        {
+          "name": "Instagram",
+          "href": "https://instagram.com"
+        }
+      ],
+      "copyright": "Copyright © 2026 Credova. All rights reserved. Powered by Lestow"
+    },
+    "BackToTop": {
+      "aria_label": "Back to top"
+    }
+  },
+  "categories": {
+    "Finance": {
+      "templateComponents": {
+        "template-1": {
+          "pages": {
+            "home": {
+              "title": "Home",
+              "pageName": "Home",
+              "metadata": {
+                "title": "Credova | Smart Banking for a Stronger Tomorrow",
+                "description": "Manage your finances, grow your wealth, and secure your future with Credova modern and reliable banking solutions."
+              },
+              "components": [
+                {
+                  "key": "HeroSection",
+                  "component": "Hero"
+                },
+                {
+                  "key": "AboutSection",
+                  "component": "About"
+                },
+                {
+                  "key": "ServicesSection",
+                  "component": "Services"
+                },
+                {
+                  "key": "WhyChooseSection",
+                  "component": "WhyChooseUs"
+                },
+                {
+                  "key": "TeamSection",
+                  "component": "Team"
+                },
+                {
+                  "key": "TestimonialsSection",
+                  "component": "Testimonials"
+                },
+                {
+                  "key": "ContactSection",
+                  "component": "Contact"
+                },
+                {
+                  "key": "FaqSection",
+                  "component": "Faq"
+                }
+              ]
+            }
+          },
+          "sections": {
+            "hero": {
+              "id": "home",
+              "eyebrow": "SMART BANKING SOLUTIONS",
+              "title_start": "Smart Banking for a",
+              "title_highlight": "Stronger Tomorrow",
+              "description": "Manage your finances, grow your wealth, and secure your future with our modern, secure, and reliable banking solutions.",
+              "primary_button_text": "Request Now",
+              "primary_button_href": "#contact",
+              "secondary_button_text": "Explore Plans",
+              "secondary_button_href": "#services",
+              "image": "/images/hero-banking.webp",
+              "trust_badge": {
+                "rating": "4.9/5",
+                "rating_text": "Client Satisfaction",
+                "stat_value": "$10B+",
+                "stat_text": "Assets Protected"
+              },
+              "features_strip": [
+                {
+                  "text": "Zero Hidden Fees"
+                },
+                {
+                  "text": "Instant Digital Onboarding"
+                },
+                {
+                  "text": "24/7 Dedicated Support"
+                }
+              ]
+            },
+            "about": {
+              "id": "about",
+              "eyebrow": "ABOUT US",
+              "title": "Solutions That Make a",
+              "title_highlight": "Real Financial Difference",
+              "description": "At Credova, we believe in smart banking and financial solutions that empower individuals, families, and businesses. Our team is dedicated to providing reliable, transparent, and innovative services tailored to your financial goals.",
+              "experience_years": "25",
+              "experience_text": "Years of Excellence",
+              "image_team": "/images/about-meeting.webp",
+              "image_handshake": "/images/about-handshake.webp",
+              "checklist": [
+                "Customer-Centric Banking",
+                "Secure & Reliable Services",
+                "Expert Financial Guidance",
+                "Long-Term Partnerships Focus"
+              ],
+              "client_avatars": [
+                "/images/team-priya.webp",
+                "/images/team-daniel.webp",
+                "/images/team-arjun.webp"
+              ],
+              "trust_stat_title": "Trusted by Over 25,000+ Clients Worldwide",
+              "trust_stat_subtitle": "Dedicated personal bankers and financial planners"
+            },
+            "services": {
+              "id": "services",
+              "eyebrow": "OUR SERVICES",
+              "title": "Comprehensive",
+              "title_highlight": "Financial Solutions",
+              "subtitle": "A wide range of personal and business banking services to help you achieve financial success.",
+              "items": [
+                {
+                  "id": "personal-banking",
+                  "tag": "Daily Accounts",
+                  "icon": "bank",
+                  "title": "Personal Banking",
+                  "description": "Flexible accounts and credit options tailored for everyday needs.",
+                  "link_text": "Explore Service"
+                },
+                {
+                  "id": "business-banking",
+                  "tag": "Commercial",
+                  "icon": "briefcase",
+                  "title": "Business Banking",
+                  "description": "Scalable financial solutions for startups and growing enterprises.",
+                  "link_text": "Explore Service"
+                },
+                {
+                  "id": "loans-credit",
+                  "tag": "Financing",
+                  "icon": "coins",
+                  "title": "Loans & Credit",
+                  "description": "Flexible lending options with competitive rates and terms.",
+                  "link_text": "Explore Service"
+                },
+                {
+                  "id": "cards-payments",
+                  "tag": "Global Cards",
+                  "icon": "credit-card",
+                  "title": "Cards & Payments",
+                  "description": "Secure debit & credit cards with global acceptance and perks.",
+                  "link_text": "Explore Service"
+                },
+                {
+                  "id": "wealth-management",
+                  "tag": "Asset Trust",
+                  "icon": "chart",
+                  "title": "Wealth Management",
+                  "description": "Strategic investment planning to grow and preserve your capital.",
+                  "link_text": "Explore Service"
+                },
+                {
+                  "id": "insurance-solutions",
+                  "tag": "Protection",
+                  "icon": "shield",
+                  "title": "Insurance Solutions",
+                  "description": "Comprehensive policies protecting your life, assets, and future.",
+                  "link_text": "Explore Service"
+                },
+                {
+                  "id": "investment-services",
+                  "tag": "Portfolios",
+                  "icon": "trending-up",
+                  "title": "Investment Services",
+                  "description": "Expert portfolio guidance to maximize your financial returns.",
+                  "link_text": "Explore Service"
+                },
+                {
+                  "id": "digital-banking",
+                  "tag": "24/7 Access",
+                  "icon": "mobile",
+                  "title": "Digital Banking",
+                  "description": "24/7 seamless access to manage accounts anywhere in the world.",
+                  "link_text": "Explore Service"
+                }
+              ]
+            },
+            "why_choose_us": {
+              "id": "why-choose-us",
+              "eyebrow": "WHY CHOOSE US",
+              "title": "A Trusted Partner for Your",
+              "title_highlight": "Financial Journey",
+              "subtitle": "We combine modern technology, dedicated support, and decades of expertise to help you achieve your financial goals with confidence.",
+              "items": [
+                {
+                  "badge": "Bank-Grade Safety",
+                  "icon": "shield-check",
+                  "title": "Trust & Security",
+                  "description": "Industry-leading 256-bit AES encryption, multi-factor biometric authentication, and insured vaults keeping your capital safe.",
+                  "guarantee_text": "Credova Certified"
+                },
+                {
+                  "badge": "Certified Advisors",
+                  "icon": "users",
+                  "title": "Expert Team",
+                  "description": "Dedicated CFP® wealth managers and licensed banking specialists committed to your personal and commercial prosperity.",
+                  "guarantee_text": "Credova Certified"
+                },
+                {
+                  "badge": "100% Bespoke",
+                  "icon": "layers",
+                  "title": "Tailored Solutions",
+                  "description": "Personalized banking suites and strategic investment portfolios customized around your unique milestones and objectives.",
+                  "guarantee_text": "Credova Certified"
+                },
+                {
+                  "badge": "High Compounding",
+                  "icon": "trending",
+                  "title": "Long-Term Value",
+                  "description": "Competitive high-yield savings, low fees, and disciplined compound growth strategies engineered for generational security.",
+                  "guarantee_text": "Credova Certified"
+                }
+              ],
+              "default_guarantee": "Credova Certified"
+            },
+            "team": {
+              "id": "team",
+              "eyebrow": "OUR TEAM",
+              "title": "Meet Our",
+              "title_highlight": "Expert Team",
+              "subtitle": "A team of experienced professionals dedicated to delivering exceptional financial services.",
+              "members": [
+                {
+                  "name": "Priya Sharma",
+                  "role": "Finance Principal",
+                  "image": "/images/team-priya.webp",
+                  "experience": "12+ Years Exp.",
+                  "specialty": "Corporate Capital & M&A",
+                  "bio": "Specializes in enterprise treasury structuring, capital allocations, and institutional banking solutions.",
+                  "linkedin": "https://linkedin.com",
+                  "email": "priya.sharma@credova.com"
+                },
+                {
+                  "name": "Daniel Morgan",
+                  "role": "Senior Investment Manager",
+                  "image": "/images/team-daniel.webp",
+                  "experience": "16+ Years Exp.",
+                  "specialty": "Wealth & Asset Growth",
+                  "bio": "Manages diversified high-yield asset portfolios with disciplined risk mitigation strategies.",
+                  "linkedin": "https://linkedin.com",
+                  "email": "daniel.morgan@credova.com"
+                },
+                {
+                  "name": "Arjun Mehta",
+                  "role": "Chief Relations Officer",
+                  "image": "/images/team-arjun.webp",
+                  "experience": "14+ Years Exp.",
+                  "specialty": "Private Client Advisory",
+                  "bio": "Directs private client partnerships, bespoke lending options, and multi-generational wealth preservation.",
+                  "linkedin": "https://linkedin.com",
+                  "email": "arjun.mehta@credova.com"
+                }
+              ],
+              "book_meet_text": "Connect",
+              "schedule_consult_text": "Schedule Consultation"
+            },
+            "testimonials": {
+              "id": "testimonials",
+              "eyebrow": "CLIENT TESTIMONIALS",
+              "title": "What Our Clients",
+              "title_highlight": "Say About Us",
+              "subtitle": "Discover how Credova's modern financial solutions and dedicated advisory empower personal wealth and enterprise growth.",
+              "overall_rating": "4.9 / 5.0",
+              "reviews_count": "Based on 2,500+ Verified Client Reviews",
+              "items": [
+                {
+                  "quote": "The personalized attention and strategic financial guidance helped our startup scale across 4 regions with complete peace of mind. Their lending terms were transparent and rapid.",
+                  "name": "Sarah Jenkins",
+                  "role": "Founder & CEO, NexaTech Global",
+                  "company": "Commercial Banking",
+                  "avatar": "/images/testimonial-sarah.webp",
+                  "rating": 5,
+                  "badge": "Business Banking",
+                  "highlight_metric": "2.4x Scale Achieved"
+                },
+                {
+                  "quote": "Credova's wealth management team provided strategic advice that transformed our family's long-term investments. Their disciplined compounding strategy has been exceptional.",
+                  "name": "Robert Sterling",
+                  "role": "Managing Director, Sterling Asset Partners",
+                  "company": "Private Wealth",
+                  "avatar": "/images/testimonial-robert.webp",
+                  "rating": 5,
+                  "badge": "Wealth Advisory",
+                  "highlight_metric": "+18.4% Net Yield"
+                },
+                {
+                  "quote": "Exceptional treasury service, reliable global payments, and prompt advisory support. Credova has consistently proven to be the most reliable financial partner we've ever worked with.",
+                  "name": "Vikram Malhotra",
+                  "role": "Chief Operating Officer, Horizon Freight",
+                  "company": "Enterprise Client",
+                  "avatar": "/images/testimonial-vikram.webp",
+                  "rating": 5,
+                  "badge": "Global Treasury",
+                  "highlight_metric": "Zero Downtime"
+                },
+                {
+                  "quote": "Switching our corporate accounts and treasury operations to Credova streamlined our working capital and reduced cross-border transaction fees substantially.",
+                  "name": "Elena Rostova",
+                  "role": "CFO, Veloce Global",
+                  "company": "Institutional Client",
+                  "avatar": "/images/about-meeting.webp",
+                  "rating": 5,
+                  "badge": "Corporate Treasury",
+                  "highlight_metric": "32% Fee Savings"
+                },
+                {
+                  "quote": "The bank-grade security protocols and responsive private banker make Credova stand in a tier of its own. Truly seamless experience on mobile and web.",
+                  "name": "Marcus Vance",
+                  "role": "Managing Partner, Vance Holdings",
+                  "company": "Private Banking",
+                  "avatar": "/images/about-handshake.webp",
+                  "rating": 5,
+                  "badge": "Private Banking",
+                  "highlight_metric": "Top Security Rating"
+                }
+              ]
+            },
+            "contact": {
+              "id": "contact",
+              "eyebrow": "CONTACT US",
+              "title": "Get in Touch",
+              "title_highlight": "with Our Advisors",
+              "subtitle": "Have questions about our wealth suites, lending terms, or commercial accounts? Our senior banking advisors are ready to assist you.",
+              "info": {
+                "badge": "Priority Advisory Desk",
+                "address_title": "Global Headquarters",
+                "address": "123 Education Lane, New York, NY 10001",
+                "hours_title": "Advisory Hours",
+                "hours": "Mon – Fri: 8:00 AM – 6:00 PM EST (24/7 Digital Support)",
+                "phone_title": "Direct Hotline",
+                "phone": "+100000000000",
+                "phone_href": "tel:+100000000000",
+                "email_title": "Concierge Email",
+                "email": "info@xyz.com",
+                "email_href": "mailto:info@xyz.com",
+                "card_title": "Dedicated Concierge & Wealth Advisory",
+                "card_subtitle": "Connect directly with our senior bankers to discuss customized credit, asset portfolios, or corporate treasury.",
+                "phone_note": "Direct line to private client banking desk",
+                "email_note": "Standard response time within 2 hours",
+                "security_note": "Encrypted client communications guaranteed"
+              },
+              "form": {
+                "first_name_placeholder": "First Name",
+                "last_name_placeholder": "Last Name",
+                "phone_placeholder": "Phone Number",
+                "subject_placeholder": "Subject / Inquiries",
+                "message_placeholder": "How can our advisory team assist you today?",
+                "submit_button": "Request Confidential Consultation",
+                "success_message": "Thank you! Your request has been received. A dedicated Credova wealth advisor will contact you within 1 business hour.",
+                "services_label": "Select Service Area",
+                "services_options": [
+                  "Personal Banking",
+                  "Business & Commercial",
+                  "Wealth Management",
+                  "Loans & Credit"
+                ],
+                "form_title": "Request Private Advisory",
+                "form_subtitle": "Select your area of interest and our specialists will arrange a tailored confidential briefing.",
+                "submit_loading": "Transmitting Request...",
+                "success_title": "Consultation Request Received"
+              }
+            },
+            "faq": {
+              "id": "faq",
+              "eyebrow": "FAQ",
+              "title": "Frequently Asked",
+              "title_highlight": "Questions",
+              "subtitle": "Find clear answers to common questions regarding our personal accounts, wealth planning, and security protocols.",
+              "categories": [
+                "All Questions",
+                "Banking & Accounts",
+                "Wealth & Advisory",
+                "Security & Privacy"
+              ],
+              "support_box": {
+                "title": "Still have questions about your financial journey?",
+                "subtitle": "Can't find the answer you're looking for? Our senior banking officers are available 24/7 to guide you.",
+                "button_text": "Speak with an Advisor",
+                "button_href": "#contact"
+              },
+              "items": [
+                {
+                  "category": "Banking & Accounts",
+                  "question": "What services do you provide?",
+                  "answer": "We provide comprehensive financial solutions including personal and business banking, home and commercial loans, wealth management, insurance, and 24/7 digital banking tools."
+                },
+                {
+                  "category": "Banking & Accounts",
+                  "question": "How fast can I open an online account?",
+                  "answer": "Our streamlined digital onboarding takes under 5 minutes with automated biometric ID verification and immediate account activation."
+                },
+                {
+                  "category": "Banking & Accounts",
+                  "question": "How do I get started?",
+                  "answer": "You can get started right away by submitting our contact form, requesting an advisory call, or visiting our office to set up your account with minimal paperwork."
+                },
+                {
+                  "category": "Wealth & Advisory",
+                  "question": "Do you offer personalized financial advice?",
+                  "answer": "Yes, every client is paired with a dedicated CFP® financial advisor to craft tailored wealth, retirement, tax-advantaged, and investment plans."
+                },
+                {
+                  "category": "Banking & Accounts",
+                  "question": "Are your services suitable for individuals and businesses?",
+                  "answer": "Yes, Credova offers customized suites for individuals seeking day-to-day accounts or high-yield savings, as well as businesses requiring enterprise treasury and credit services."
+                },
+                {
+                  "category": "Wealth & Advisory",
+                  "question": "How often should I review my financial plan?",
+                  "answer": "We recommend conducting a full financial portfolio check-up at least once every six months, or whenever major life or business milestones occur."
+                },
+                {
+                  "category": "Security & Privacy",
+                  "question": "What security measures do you have in place?",
+                  "answer": "We utilize bank-grade 256-bit AES encryption, multi-factor biometric authentication, proactive fraud monitoring, and strict regulatory compliance to protect your capital."
+                },
+                {
+                  "category": "Wealth & Advisory",
+                  "question": "Can you help with long-term wealth creation?",
+                  "answer": "Absolutely. Our wealth management team focuses on disciplined asset allocation, compound growth strategies, and risk hedging to preserve and grow generational wealth."
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
